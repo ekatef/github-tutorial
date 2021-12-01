@@ -15,6 +15,8 @@ class Object:
     ----------
     summer()
         sums the two numbers
+    multiple()
+        multiplies two numbers    
     '''
 
 
@@ -43,6 +45,12 @@ class Object:
         Should return sum of self.a and self.b
         '''
         raise NotImplementedError('implement me')
+
+    def multipl(self):
+        '''
+        Returns product of self.a and self.b
+        '''
+        return(self.a * self.b)       
 
 
 def main():
